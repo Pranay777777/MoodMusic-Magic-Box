@@ -16,4 +16,4 @@ A dynamic web app that recommends music playlists based on **real-time weather**
 ## 🚀 Quick Start
 1. Clone repo:
    ```bash
-   git clone https://github.com/your-username/MoodMusic-Magic-Box.git
+   git clone https://github.com/Pranay777777/MoodMusic-Magic-Box.git
