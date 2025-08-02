@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MoodMusic Magic Box 🎵</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎵 MoodMusic Magic Box 🎵</h1>
+    <div id="dateTime"></div>
+    <div class="button-group">
+      <button id="startMagic" class="btn">🌟 Start Magic!</button>
+      <button id="manualLocation" class="btn">📍 Manual Location</button>
+    </div>
+    <div id="locationInput">
+      <input type="text" id="cityInput" placeholder="Enter city name (e.g., New York, London)">
+      <button id="searchLocation">Search</button>
+    </div>
+    <div class="loading" id="loading">
+      <div class="spinner"></div>
+      <p id="loadingMessage">🎵 Tuning into the cosmic music vibes...</p>
+    </div>
+    <div class="error" id="error"></div>
+    <div class="weather-container" id="weatherContainer">
+      <div class="weather-icon" id="weatherIcon"></div>
+      <h2 id="cityName"></h2>
+      <h3 id="weatherDescription"></h3>
+      <div class="weather-details" id="weatherDetails"></div>
+    </div>
+    <div class="mood-selector" id="moodSelector">
+      <h3>🎭 Choose Your Mood</h3>
+      <div class="mood-options">
+        <button class="mood-btn" data-mood="happy">😊</button>
+        <button class="mood-btn" data-mood="sad">😢</button>
+        <button class="mood-btn" data-mood="energetic">⚡</button>
+        <button class="mood-btn" data-mood="calm">🧘</button>
+        <button class="mood-btn" data-mood="romantic">💕</button>
+        <button class="mood-btn" data-mood="focus">🎯</button>
+      </div>
+    </div>
+    <div class="music-container" id="musicContainer">
+      <h3>🎵 Your Music Recommendations</h3>
+      <div class="music-recommendations" id="musicRecommendations"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
